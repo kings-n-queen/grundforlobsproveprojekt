@@ -1,1 +1,5 @@
-/* @import "./listevisning.css"; */
+@import "./listevisning.css";
+body {
+    margin: 0;
+    padding: 0;
+}
