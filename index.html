@@ -5,26 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <meta name="description" content="Grundforløbsprøveprojekt med Gantt Kalender">
+    <title>Grundforløbsprøveprojekt</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/png">
 </head>
 
-<body>
+<body style="margin: 0;">
+    <div style="height: 100vh; overflow: hidden;">
+        <header style="height: 50px; background-color:#3b4c5c;"></header>
 
-    <footer>
-        <section id="contactForm">
-            <form action="">
-                <h4 class="form_headline form_font">Send os en besked</h4>
-                <label class="" for="name"></label>
-                <input class="input_color form_font" type="text" id="name" placeholder="Skriv dit navn her"><br>
-                <label for="email"></label>
-                <input class="input_color form_font" type="email" id="email" placeholder="Skriv din email her"><br><br>
-                <textarea class="input_color form_font" placeholder="Skriv din besked her"></textarea>
-                <button class="btn_color form_font" type="submit"><svg viewBox="0 0 24 24"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"></path></svg>Send</button>
-            </form>
-        </section>
-    </footer>
+        <!-- Hero -->
 
+        <!-- Der skal være en ydre CONTAINER/WRAPPER med: height: 100vh; -->
+        <!-- Denne container skal indeholde HEADER'en + denne HERO -->
+
+        <div class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Teambuilding</h1>
+                <p class="hero__text">Jagtanekdoter, bramfri råvaresnak og madlavning i det fri.</p>
+                <p class="hero__text">Mød naturmanden Jørgen Skouboe og kokken Nikolai Kirk fra det populære tv-program “Nak og Æd”.</p>
+                <a class="hero__link" href="#">LÆS MERE</a>
+            </div>
+            <img src="./images/hero.jpg" alt="Campfire" class="hero__image">
+        </div>
+
+        <!-- Hero -->
+
+        <footer>
+          <section id="contactForm">
+              <form action="">
+                  <h4 class="form_headline form_font">Send os en besked</h4>
+                  <label class="" for="name"></label>
+                  <input class="input_color form_font" type="text" id="name" placeholder="Skriv dit navn her"><br>
+                  <label for="email"></label>
+                  <input class="input_color form_font" type="email" id="email" placeholder="Skriv din email her"><br><br>
+                  <textarea class="input_color form_font" placeholder="Skriv din besked her"></textarea>
+                  <button class="btn_color form_font" type="submit"><svg viewBox="0 0 24 24"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"></path></svg>Send</button>
+              </form>
+          </section>
+      </footer>
+    </div>
     <script src="./js/app.js" defer></script>
 </body>
 
