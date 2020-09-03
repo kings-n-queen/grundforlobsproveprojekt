@@ -5,7 +5,7 @@ function burgermenu(){
     
     burgerKnap.addEventListener("click", function(){
       myNavbar.classList.toggle("js-hidden");
-    })
+    });
     }
     
     export default burgermenu;
