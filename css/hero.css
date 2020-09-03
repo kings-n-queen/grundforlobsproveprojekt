@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-.hero__teaser {
+.hero__content {
     position: absolute;
     top: 20vh;
     left: 10vw;
@@ -24,7 +24,17 @@
 }
 
 .hero__title {
-    font-weight: 400;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.hero__text {
+    text-align: left;
+    margin: 1em;
+}
+
+.hero__text:last-of-type {
+    margin-bottom: 2.4em;
 }
 
 .hero__link {
@@ -37,11 +47,11 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .hero__teaser {
+    .hero__content {
         top: 20vh;
         left: 0;
         right: 0;
         max-width: 100%;
-        padding: 0 10%;
+        padding: 0 4%;
     }
 }

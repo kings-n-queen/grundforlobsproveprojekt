@@ -13,19 +13,25 @@
 
 <body style="margin: 0;">
     <div style="height: 100vh; overflow: hidden;">
+        <header style="height: 50px; background-color:#3b4c5c;"></header>
+
         <!-- Hero -->
-        <header style="height: 100px;"></header>
+
+        <!-- Der skal være en ydre CONTAINER/WRAPPER med: height: 100vh; -->
+        <!-- Denne container skal indeholde HEADER'en + denne HERO -->
+
         <div class="hero">
-            <div class="hero__teaser">
+            <div class="hero__content">
                 <h1 class="hero__title">Teambuilding</h1>
-                <p>Jagtanekdoter, bramfri råvaresnak og madlavning i det fri.</p>
-                <p>Mød naturmanden Jørgen Skouboe og kokken Nikolai Kirk fra det populære tv-program “Nak og Æd”.</p>
+                <p class="hero__text">Jagtanekdoter, bramfri råvaresnak og madlavning i det fri.</p>
+                <p class="hero__text">Mød naturmanden Jørgen Skouboe og kokken Nikolai Kirk fra det populære tv-program “Nak og Æd”.</p>
                 <a class="hero__link" href="#">LÆS MERE</a>
             </div>
-            <!-- Hero'ens yderste container skal have: height: 100vh; -->
             <img src="./images/hero.jpg" alt="Campfire" class="hero__image">
         </div>
+
         <!-- Hero -->
+
     </div>
     <script src="./js/app.js" defer></script>
 </body>
