@@ -1,1 +1,0 @@
-import listevisning from "./listevisning";
