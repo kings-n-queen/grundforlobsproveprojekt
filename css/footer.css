@@ -1,0 +1,7 @@
+.mainFooter {
+    background-color: #2b353f;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 100px;
+}
